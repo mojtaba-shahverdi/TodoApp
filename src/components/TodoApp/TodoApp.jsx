@@ -17,6 +17,8 @@ const TodoApp = () => {
         let storedTasks = localStorage.getItem('tasks')
         if (storedTasks) {
             storedTasks = JSON.parse(storedTasks)
+        } else {
+            storedTasks =[]
         }
         setTasks(storedTasks)
     }, [])
