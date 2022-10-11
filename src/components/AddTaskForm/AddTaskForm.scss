@@ -1,0 +1,31 @@
+.AddTaskForm{
+    width: 100%;
+    margin-bottom: 25px;
+    form{
+        display: flex;
+    }
+    input{
+        width: 100%;
+        height: 50px;
+        font-size: 20px;
+        padding: 5px 10px;
+        outline: none;
+        border: 1px solid #eee;
+        border-radius: 8px 0 0 8px;
+    }
+    button{
+        height: 50px;
+        font-size: 20px;
+        border: none;
+        padding: 5px 30px;
+        border-radius: 0 8px 8px 0;
+        background: #eee;
+        box-shadow: 5px 5px 5px rgb(227, 226, 226);
+        transition: all 0.3s;
+        cursor: pointer;
+        &:hover{
+            background: rgb(121, 121, 121);
+            color: rgb(196, 195, 195);
+        }
+    }
+}
